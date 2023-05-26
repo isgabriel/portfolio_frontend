@@ -1,48 +1,45 @@
 import { styled } from "styled-components";
 
 const SectionDivs = styled.section`
-    position: relative;
-    width: 100%;
-    max-width: 118px;
+    cursor: pointer;
 
-    .changeButtonDiv {
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        z-index: 10;
-        /* width: 100%; */
-    }
-    .SwitchDiv {
-        z-index: 100;
+    @media (min-width: 769px) {
+        button {
+            margin: 50px 0;
+            gap: 35px;
+
+            font-size: ${(props) => props.theme.titles.title3};
+
+            figure {
+                width: 50px;
+                height: 50px;
+            }
+        }
     }
 `;
 
-const DivFiguresThemeSelector = styled.div`
-    border: 1px solid ${(props) => props.theme.colors.greys.grey5};
-    border-radius: 30px;
+const DivFiguresThemeSelector = styled.button`
+    background-color: transparent;
+    color: ${(props) => props.theme.colors.greys.grey7};
 
-    width: 100%;
-    padding: 2px 4px;
+    max-width: 100%;
+    margin: 25px 0 10px 0;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 
     figure {
         width: 40px;
         height: 40px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 `;
 
-const DivButtonChangeTheme = styled.div`
-    button {
-        background-color: transparent;
-        border: none;
-    }
-    position: absolute;
-    top: 5px;
-    left: 5px;
-`;
-
-export { SectionDivs, DivFiguresThemeSelector, DivButtonChangeTheme };
+export { SectionDivs, DivFiguresThemeSelector };

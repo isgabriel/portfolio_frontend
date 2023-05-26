@@ -3,6 +3,8 @@ import { styled } from "styled-components";
 const HeaderStyled = styled.header`
     width: 100%;
     max-width: 980px;
+
+    position: fixed;
 `;
 const NavBar = styled.nav`
     display: flex;
@@ -10,8 +12,10 @@ const NavBar = styled.nav`
     align-items: center;
 
     max-width: 100%;
+    padding: 0 20px;
+    /* max-width: 100%;
 
-    padding: 18px 20px;
+    padding: 18px 20px; */
 
     @media (min-width: 769px) {
         h2 {
@@ -32,6 +36,19 @@ const NavBar = styled.nav`
 
             button > img {
                 width: 20px;
+            }
+        }
+    }
+    @media (min-width: 1260px) {
+        h2 {
+            font-size: ${(props) => props.theme.titles.title3};
+        }
+
+        .divButtonsHeader {
+            width: 360px;
+
+            button > img {
+                width: 40px;
             }
         }
     }

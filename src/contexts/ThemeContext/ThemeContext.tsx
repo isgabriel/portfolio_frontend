@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useContext } from "react";
 
 import { iThemeContext } from "./type";
 
@@ -12,10 +12,9 @@ export const ThemeChangeContext = createContext({} as iThemeContext);
 
 const ThemeChangeProvider = ({ children }: { children: JSX.Element }) => {
     const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", light);
-
     const toggleTheme = () => {
         setTheme(theme.title === "light" ? dark : light);
-        // console.log(theme.title);
+        window.location.reload();
     };
 
     return (

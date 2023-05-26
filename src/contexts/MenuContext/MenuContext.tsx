@@ -1,4 +1,5 @@
-import { createContext, useState } from "react";
+/* eslint-disable no-constant-condition */
+import { createContext, useState, useEffect } from "react";
 
 import { iMenuContext } from "./type";
 
