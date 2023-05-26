@@ -19,7 +19,7 @@ import {
 const Header: React.FC = () => {
     const { menu, handleMenu } = useContext(MenuContext);
     return (
-        <HeaderStyled>
+        <HeaderStyled onClick={handleMenu}>
             {menu ? (
                 <NavBar>
                     <TitleHeaderMenu>Gabriel Montenegro</TitleHeaderMenu>

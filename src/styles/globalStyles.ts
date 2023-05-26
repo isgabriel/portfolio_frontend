@@ -14,11 +14,15 @@ export default createGlobalStyle`
 	font: inherit;
 	vertical-align: baseline;
     font-family: "Jost", sans-serif;
-	list-style:none
+	list-style:none;
+	text-decoration:none;
+	scroll-behavior: smooth;
 }
 
 body{
     background-color:${(props) => props.theme.colors.background};
 }
-
+button{
+	cursor: pointer;
+}
 `;

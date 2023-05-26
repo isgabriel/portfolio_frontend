@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-condition */
 import { createContext, useState } from "react";
 
 import { iMenuContext } from "./type";

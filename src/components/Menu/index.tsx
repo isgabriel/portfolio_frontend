@@ -15,30 +15,46 @@ import {
 
 const MenuPortfolio: React.FC = () => {
     const { handleMenu } = useContext(MenuContext);
+
     return (
-        <MenuSection>
+        <MenuSection data-aos="flip-right" data-aos-duration="1000">
             <Header />
             <div>
                 <ListMenu>
-                    <ListThemeChanger>
+                    <ListThemeChanger
+                        data-aos="fade-right"
+                        data-aos-duration="1500"
+                    >
                         <MenuSelector />
                     </ListThemeChanger>
-                    <ListMenuOptions>
+                    <ListMenuOptions
+                        data-aos="fade-right"
+                        data-aos-duration="1500"
+                    >
                         <MenuAnchors href="#home" onClick={handleMenu}>
                             HOME
                         </MenuAnchors>
                     </ListMenuOptions>
-                    <ListMenuOptions>
+                    <ListMenuOptions
+                        data-aos="fade-right"
+                        data-aos-duration="1500"
+                    >
                         <MenuAnchors href="#about" onClick={handleMenu}>
                             SOBRE MIM
                         </MenuAnchors>
                     </ListMenuOptions>
-                    <ListMenuOptions>
+                    <ListMenuOptions
+                        data-aos="fade-right"
+                        data-aos-duration="1500"
+                    >
                         <MenuAnchors href="#projects" onClick={handleMenu}>
                             PROJETOS
                         </MenuAnchors>
                     </ListMenuOptions>
-                    <ListMenuOptions>
+                    <ListMenuOptions
+                        data-aos="fade-right"
+                        data-aos-duration="1500"
+                    >
                         <MenuAnchors href="#contact" onClick={handleMenu}>
                             CONTATO
                         </MenuAnchors>

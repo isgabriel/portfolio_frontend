@@ -5,7 +5,9 @@ const MenuSection = styled.section`
     color: ${(props) => props.theme.colors.text};
 
     min-height: 100vh;
-    width: 100%;
+    max-width: 100%;
+
+    padding: 18px 20px;
 
     display: flex;
     flex-direction: column;
@@ -26,6 +28,15 @@ const ListMenu = styled.ul`
     display: flex;
     flex-direction: column;
     gap: 50px;
+    @media (min-width: 769px) {
+        gap: 100px;
+
+        li {
+            a {
+                font-size: ${(props) => props.theme.titles.title1};
+            }
+        }
+    }
 `;
 
 const ListThemeChanger = styled.li`
