@@ -1,11 +1,11 @@
 import { useContext } from "react";
 
 import { MenuContext } from "../../contexts/MenuContext/MenuContext";
-import { MenuPortfolio } from "../Menu";
-import { Header } from "../Header";
+import { MenuPortfolio } from "../../components/Menu";
+import { Header } from "../../components/Header";
 import { HomeContainer, HomePageSection } from "./style";
-import { HomeInfos } from "../HomeInfos";
-import { AboutMeInfos } from "../AboutMeInfos";
+import { HomeInfos } from "../../components/HomeInfos";
+import { AboutMeInfos } from "../../components/AboutMeInfos";
 
 const Home = () => {
     const { menu } = useContext(MenuContext);
@@ -15,7 +15,7 @@ const Home = () => {
             {menu ? (
                 <MenuPortfolio />
             ) : (
-                <HomePageSection data-aos="flip-left">
+                <HomePageSection className="aaaeee" data-aos="flip-left">
                     <Header />
                     <main>
                         <HomeInfos />

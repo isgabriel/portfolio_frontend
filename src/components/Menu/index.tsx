@@ -47,6 +47,14 @@ const MenuPortfolio: React.FC = () => {
                         data-aos="fade-right"
                         data-aos-duration="1500"
                     >
+                        <MenuAnchors href="#techs" onClick={handleMenu}>
+                            TECNOLOGIAS
+                        </MenuAnchors>
+                    </ListMenuOptions>
+                    <ListMenuOptions
+                        data-aos="fade-right"
+                        data-aos-duration="1500"
+                    >
                         <MenuAnchors href="#projects" onClick={handleMenu}>
                             PROJETOS
                         </MenuAnchors>

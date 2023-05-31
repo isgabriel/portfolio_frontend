@@ -1,22 +1,33 @@
-import photoOfMe from "../../assets/photoOfMe/gabriel-photo.svg";
+import photoOfMe from "../../assets/photoOfMe/gabriel-photo-2.jpg";
 
-import { aboutMeData } from "../../data/aboutMeData";
-import { FigurePhotoMe, SecondScreenSection } from "./style";
 import { SectionTitle } from "../../styles/sections";
+import { aboutMeData } from "../../data/aboutMeData";
+
+import {
+    AboutMeTextsDiv,
+    ContainerAboutMe,
+    SecondScreenSection,
+} from "./style";
 
 const AboutMeInfos = () => {
     return (
-        <SecondScreenSection>
-            <SectionTitle>{aboutMeData.sectionName}</SectionTitle>
-            <FigurePhotoMe>
-                <img src={photoOfMe} alt="" />
-            </FigurePhotoMe>
-            <p></p>
-            <p></p>
-            <div>
-                <p></p>
-                <span></span>
-            </div>
+        <SecondScreenSection id="about">
+            <ContainerAboutMe>
+                <div className="dev">
+                    <figure>
+                        <img src={photoOfMe} alt="Gabriel Montenegro" />
+                    </figure>
+                </div>
+                <AboutMeTextsDiv>
+                    <SectionTitle>{aboutMeData.sectionName}</SectionTitle>
+                    <p>{aboutMeData.paragraph1}</p>
+                    <p>{aboutMeData.paragraph2}</p>
+                    <p>
+                        {aboutMeData.paragraph3}
+                        <a href="#contact">{aboutMeData.workTogether}</a>
+                    </p>
+                </AboutMeTextsDiv>
+            </ContainerAboutMe>
         </SecondScreenSection>
     );
 };

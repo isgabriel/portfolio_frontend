@@ -17,16 +17,6 @@ const SocialLinksMenuCommon = css`
 `;
 const SocialLinksSectionMenu = styled.section`
     ${SocialLinksMenuCommon}
-    @media (min-width: 1260px) {
-        a {
-            width: 40px;
-            height: 40px;
-            img {
-                width: 40px;
-                height: 40px;
-            }
-        }
-    }
 `;
 
 const SocialLogoMenu = styled.img``;

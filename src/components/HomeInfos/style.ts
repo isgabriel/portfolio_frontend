@@ -5,10 +5,16 @@ const FirstScreenSection = styled.section`
     flex-direction: column;
     gap: 30px;
 
-    max-width: 980px;
+    max-width: 1200px;
     /* width: 100%; */
     @media (min-width: 769px) {
+        gap: 80px;
+
+        > div {
+            gap: 60px;
+        }
         h1 {
+            margin-top: 50px;
             font-size: ${(props) => props.theme.titles.title1};
         }
         h2 {
@@ -57,7 +63,7 @@ const PresentationFirstScreen = styled.p`
 
 const BigLineSeparation = styled.div`
     width: 100%;
-    max-width: 980px;
+    max-width: 1200px;
     height: 2px;
     background-color: ${(props) => props.theme.colors.primary};
 `;

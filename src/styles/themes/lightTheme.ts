@@ -4,7 +4,7 @@ export default {
     colors: {
         primary: "#102347", //brand2
         secondary: "rgba(30, 47, 148, 0.8)", //brand3
-        terciary: "#42B5FF", //brand4
+        terciary: "#2d4d6a", //brand4
 
         greys: {
             grey0: "#000000",
