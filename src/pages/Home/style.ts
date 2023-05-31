@@ -2,9 +2,10 @@ import { styled } from "styled-components";
 
 const HomeContainer = styled.div`
     min-width: 100%;
-    max-width: 980px;
+    max-width: 1200px;
 `;
 const HomePageSection = styled.section`
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +18,10 @@ const HomePageSection = styled.section`
 
     padding: 18px 20px;
     main {
-        margin-top: 60px;
+        /* margin-top: 60px; */
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
     }
 `;
 

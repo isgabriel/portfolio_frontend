@@ -7,7 +7,7 @@ import { ThemeChangeContext } from "./contexts/ThemeContext/ThemeContext";
 import { ThemeProvider } from "styled-components";
 
 import GlobalStyle from "./styles/globalStyles";
-import { Home } from "./components/Home";
+import { Home } from "./pages/Home";
 
 function App() {
     const { theme } = useContext(ThemeChangeContext);

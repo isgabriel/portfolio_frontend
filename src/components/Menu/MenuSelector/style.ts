@@ -5,7 +5,7 @@ const SectionDivs = styled.section`
 
     @media (min-width: 769px) {
         button {
-            margin: 50px 0;
+            margin: 90px 0 0 0;
             gap: 35px;
 
             font-size: ${(props) => props.theme.titles.title3};

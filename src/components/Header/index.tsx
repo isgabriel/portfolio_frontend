@@ -19,10 +19,12 @@ import {
 const Header: React.FC = () => {
     const { menu, handleMenu } = useContext(MenuContext);
     return (
-        <HeaderStyled onClick={handleMenu}>
+        <HeaderStyled>
             {menu ? (
                 <NavBar>
-                    <TitleHeaderMenu>Gabriel Montenegro</TitleHeaderMenu>
+                    <TitleHeaderMenu href="home">
+                        Gabriel Montenegro
+                    </TitleHeaderMenu>
                     <DivButtonsHeader className="divButtonsHeader">
                         <SocialLinksMenu />
                         <MenuButton onClick={handleMenu}>
@@ -32,7 +34,9 @@ const Header: React.FC = () => {
                 </NavBar>
             ) : (
                 <NavBar>
-                    <TitlePageHeader>Gabriel Montenegro</TitlePageHeader>
+                    <TitlePageHeader href="home">
+                        Gabriel Montenegro
+                    </TitlePageHeader>
                     <DivButtonsHeader className="divButtonsHeader">
                         <SocialLinksGeneral />
                         <MenuButton onClick={handleMenu}>

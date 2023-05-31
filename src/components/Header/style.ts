@@ -2,9 +2,11 @@ import { styled } from "styled-components";
 
 const HeaderStyled = styled.header`
     width: 100%;
-    max-width: 980px;
+    max-width: 1200px;
 
-    position: fixed;
+    position: sticky;
+    top: 18px;
+    z-index: 1000;
 `;
 const NavBar = styled.nav`
     display: flex;
@@ -12,13 +14,13 @@ const NavBar = styled.nav`
     align-items: center;
 
     max-width: 100%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     /* max-width: 100%;
 
     padding: 18px 20px; */
 
     @media (min-width: 769px) {
-        h2 {
+        a {
             font-size: ${(props) => props.theme.titles.title4};
         }
 
@@ -39,22 +41,13 @@ const NavBar = styled.nav`
             }
         }
     }
-    @media (min-width: 1260px) {
-        h2 {
-            font-size: ${(props) => props.theme.titles.title3};
-        }
-
-        .divButtonsHeader {
-            width: 360px;
-
-            button > img {
-                width: 40px;
-            }
-        }
+    @media (min-width: 1200px) {
+        padding: 0;
     }
 `;
 
-const TitleHeaderMenu = styled.h2`
+const TitleHeaderMenu = styled.a`
+    cursor: pointer;
     color: ${(props) => props.theme.colors.greys.grey7};
 `;
 
@@ -73,7 +66,8 @@ const MenuButton = styled.button`
     align-items: center;
 `;
 
-const TitlePageHeader = styled.h2`
+const TitlePageHeader = styled.a`
+    cursor: pointer;
     color: ${(props) => props.theme.colors.text};
 `;
 

@@ -13,7 +13,7 @@ import {
 
 const HomeInfos = () => {
     return (
-        <FirstScreenSection>
+        <FirstScreenSection id="home">
             <NameTitleHome>GABRIEL MONTENEGRO</NameTitleHome>
 
             <SectionBasicInfos>
@@ -26,6 +26,7 @@ const HomeInfos = () => {
                     {homeInfosData.description}
                 </PresentationFirstScreen>
                 <BigLineSeparation />
+
                 <CurriculumDiv className="curriculumBtnDiv">
                     <a
                         href="https://drive.google.com/file/d/1FFNSRDuTJd1UeUcotjpibDw53PoEM0qF/view?usp=sharing"
