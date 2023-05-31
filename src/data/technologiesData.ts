@@ -108,3 +108,5 @@ const technologiesData = {
     c: { img: {}, name: "C", description: "" },
     java: { img: { DiJava }, name: "JAVA", description: "" },
 };
+
+export { technologiesData };
