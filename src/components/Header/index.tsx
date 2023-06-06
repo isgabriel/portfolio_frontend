@@ -26,7 +26,10 @@ const Header: React.FC = () => {
                         Gabriel Montenegro
                     </TitleHeaderMenu>
                     <DivButtonsHeader className="divButtonsHeader">
-                        <SocialLinksMenu />
+                        <SocialLinksMenu
+                            data-aos="fade-right"
+                            data-aos-duration="1500"
+                        />
                         <MenuButton onClick={handleMenu}>
                             <img src={closeBtn} alt="" />
                         </MenuButton>

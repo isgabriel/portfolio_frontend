@@ -7,7 +7,7 @@ export default createGlobalStyle`
 */
 ::-webkit-scrollbar {
     width: 16px;
-    background: transparent;
+    background: ${(props) => props.theme.colors.background};
     height: 10px;
 }
 

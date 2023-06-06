@@ -7,7 +7,7 @@ import { SocialLinksSectionMenu, SocialLogoMenu } from "./style";
 
 const SocialLinksMenu: React.FC = () => {
     return (
-        <SocialLinksSectionMenu data-aos="fade-right" data-aos-duration="1500">
+        <SocialLinksSectionMenu>
             <a href="https://github.com/isgabriel" target="_blank">
                 <SocialLogoMenu src={githubLogoWhite} alt="github-btn" />
             </a>
