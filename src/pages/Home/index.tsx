@@ -6,6 +6,8 @@ import { Header } from "../../components/Header";
 import { HomeContainer, HomePageSection } from "./style";
 import { HomeInfos } from "../../components/HomeInfos";
 import { AboutMeInfos } from "../../components/AboutMeInfos";
+import { Technologies } from "../../components/Technologies";
+import { Projects } from "../../components/Projects";
 
 const Home = () => {
     const { menu } = useContext(MenuContext);
@@ -20,6 +22,8 @@ const Home = () => {
                     <main>
                         <HomeInfos />
                         <AboutMeInfos />
+                        <Technologies />
+                        <Projects />
                     </main>
                 </HomePageSection>
             )}

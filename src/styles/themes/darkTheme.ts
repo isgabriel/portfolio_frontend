@@ -14,7 +14,7 @@ export default {
             grey7: "#ffffff",
         },
 
-        background: "#000000", //grey0
+        background: "#101010", //grey0
         text: "#FFFFFF", //grey7
 
         backgroundToggleTheme: "rgba(0,0,0,0.25)",

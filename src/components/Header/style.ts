@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 const HeaderStyled = styled.header`
     width: 100%;
-    max-width: 1200px;
+    max-width: 1620px;
 
     position: sticky;
     top: 18px;
@@ -14,10 +14,6 @@ const NavBar = styled.nav`
     align-items: center;
 
     max-width: 100%;
-    /* padding: 0 20px; */
-    /* max-width: 100%;
-
-    padding: 18px 20px; */
 
     @media (min-width: 769px) {
         a {
@@ -25,15 +21,24 @@ const NavBar = styled.nav`
         }
 
         .divButtonsHeader {
+            position: relative;
             display: flex;
             justify-content: space-between;
             align-items: center;
 
             width: 260px;
+            height: 43px;
 
             section {
                 display: flex;
                 flex-direction: row;
+                height: 100%;
+            }
+
+            button {
+                position: absolute;
+                right: 0;
+                bottom: 0;
             }
 
             button > img {
@@ -63,7 +68,6 @@ const MenuButton = styled.button`
     border: none;
 
     display: flex;
-    align-items: center;
 `;
 
 const TitlePageHeader = styled.a`
