@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 const HomeContainer = styled.div`
     min-width: 100%;
-    max-width: 1200px;
+    max-width: 1620px;
 `;
 const HomePageSection = styled.section`
     /* position: relative; */

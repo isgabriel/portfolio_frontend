@@ -5,6 +5,17 @@ export default createGlobalStyle`
    v2.0 | 20110126
    License: none (public domain)
 */
+::-webkit-scrollbar {
+    width: 16px;
+    background: transparent;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 14px 14px ${(props) => props.theme.colors.primary};
+    border: solid 4px transparent;
+    border-radius: 14px;
+}
 
 * {
 	margin: 0;
@@ -17,6 +28,7 @@ export default createGlobalStyle`
 	list-style:none;
 	text-decoration:none;
 	scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body{

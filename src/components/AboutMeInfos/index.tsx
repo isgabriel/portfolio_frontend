@@ -1,10 +1,11 @@
 import photoOfMe from "../../assets/photoOfMe/gabriel-photo-2.jpg";
 
-import { SectionTitle } from "../../styles/sections";
+import { SectionTitleMedium } from "../../styles/sections";
 import { aboutMeData } from "../../data/aboutMeData";
 
 import {
     AboutMeTextsDiv,
+    AnchorWithRedirectStyled,
     ContainerAboutMe,
     SecondScreenSection,
 } from "./style";
@@ -19,12 +20,16 @@ const AboutMeInfos = () => {
                     </figure>
                 </div>
                 <AboutMeTextsDiv>
-                    <SectionTitle>{aboutMeData.sectionName}</SectionTitle>
+                    <SectionTitleMedium>
+                        {aboutMeData.sectionName}
+                    </SectionTitleMedium>
                     <p>{aboutMeData.paragraph1}</p>
                     <p>{aboutMeData.paragraph2}</p>
                     <p>
                         {aboutMeData.paragraph3}
-                        <a href="#contact">{aboutMeData.workTogether}</a>
+                        <AnchorWithRedirectStyled href="#contact">
+                            {aboutMeData.workTogether}
+                        </AnchorWithRedirectStyled>
                     </p>
                 </AboutMeTextsDiv>
             </ContainerAboutMe>

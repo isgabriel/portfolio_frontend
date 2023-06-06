@@ -7,7 +7,7 @@ const SecondScreenSection = styled.section`
     flex-direction: column;
     gap: 30px;
 
-    max-width: 1200px;
+    max-width: 1620px;
 
     margin-top: 40px;
 
@@ -140,29 +140,34 @@ const AboutMeTextsDiv = styled.div`
     p {
         font-size: ${(props) => props.theme.texts.text6};
         font-weight: ${(props) => props.theme.weights.regular};
-
-        a {
-            color: ${(props) => props.theme.colors.secondary};
-            font-weight: ${(props) => props.theme.weights.semiBold};
-            text-decoration: underline;
-        }
-        a:hover {
-            color: ${(props) => props.theme.colors.terciary};
-
-            transition: 0.8s;
-        }
     }
 
     @media (min-width: 769px) {
         p {
             font-size: ${(props) => props.theme.texts.text4};
-            font-weight: ${(props) => props.theme.weights.medium};
-
-            a {
-                font-weight: ${(props) => props.theme.weights.bold};
-            }
         }
     }
 `;
 
-export { SecondScreenSection, ContainerAboutMe, AboutMeTextsDiv };
+const AnchorWithRedirectStyled = styled.a`
+    color: ${(props) => props.theme.colors.secondary};
+    font-weight: ${(props) => props.theme.weights.semiBold};
+    text-decoration: underline;
+
+    &:hover {
+        color: ${(props) => props.theme.colors.terciary};
+
+        transition: 0.8s;
+    }
+
+    @media (min-width: 769px) {
+        font-weight: ${(props) => props.theme.weights.bold};
+    }
+`;
+
+export {
+    SecondScreenSection,
+    ContainerAboutMe,
+    AboutMeTextsDiv,
+    AnchorWithRedirectStyled,
+};

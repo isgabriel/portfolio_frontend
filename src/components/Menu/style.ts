@@ -5,9 +5,12 @@ const MenuSection = styled.section`
     color: ${(props) => props.theme.colors.text};
 
     min-height: 100vh;
+    height: 99.951%;
     max-width: 100%;
 
-    padding: 18px 20px;
+    overflow: hidden;
+
+    padding: 0 20px 0 20px;
 
     display: flex;
     flex-direction: column;
@@ -24,13 +27,11 @@ const ListMenu = styled.ul`
     margin: 30px 0;
 
     width: 100%;
+    max-height: 100vh;
 
     display: flex;
     flex-direction: column;
-    gap: 50px;
     @media (min-width: 769px) {
-        gap: 100px;
-
         li {
             a {
                 font-size: ${(props) => props.theme.titles.title1};
