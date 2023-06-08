@@ -9,8 +9,11 @@ import { AboutMeInfos } from "../../components/AboutMeInfos";
 import { Technologies } from "../../components/Technologies";
 import { Projects } from "../../components/Projects";
 import { Contact } from "../../components/Contact";
+import { ModalContact } from "../../components/ModalContact";
+import { ModalContext } from "../../contexts/ModalContext";
 
 const Home = () => {
+    const { isOpen } = useContext(ModalContext);
     const { menu } = useContext(MenuContext);
 
     return (
@@ -18,16 +21,20 @@ const Home = () => {
             {menu ? (
                 <MenuPortfolio />
             ) : (
-                <HomePageSection className="aaaeee" data-aos="flip-left">
-                    <Header />
-                    <main>
-                        <HomeInfos />
-                        <AboutMeInfos />
-                        <Technologies />
-                        <Projects />
-                    </main>
-                    <Contact />
-                </HomePageSection>
+                <>
+                    {isOpen && <ModalContact />}
+                    <HomePageSection className="aaaeee" data-aos="flip-left">
+                        <Header />
+                        <main>
+                            <HomeInfos />
+                            <AboutMeInfos />
+                            <Technologies />
+                            <Projects />
+                        </main>
+
+                        <Contact />
+                    </HomePageSection>
+                </>
             )}
         </HomeContainer>
     );
