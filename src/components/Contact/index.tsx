@@ -13,7 +13,7 @@ import { ModalContact } from "../ModalContact";
 const Contact = () => {
     const { setIsOpen } = useContext(ModalContext);
     return (
-        <FifthScreenSection>
+        <FifthScreenSection id="contact">
             {/* {isOpen && <ModalContact />} */}
 
             <div>
