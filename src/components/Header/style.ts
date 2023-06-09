@@ -16,7 +16,7 @@ const NavBar = styled.nav`
     max-width: 100%;
 
     @media (min-width: 769px) {
-        a {
+        .titleHeaderHomePage {
             font-size: ${(props) => props.theme.titles.title4};
         }
 
@@ -32,11 +32,10 @@ const NavBar = styled.nav`
             section {
                 display: flex;
                 flex-direction: row;
-                height: 100%;
             }
 
             button {
-                position: absolute;
+                /* position: absolute; */
                 right: 0;
                 bottom: 0;
             }

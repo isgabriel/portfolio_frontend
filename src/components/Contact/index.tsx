@@ -8,14 +8,11 @@ import {
     DivContactDescAndSocials,
     FifthScreenSection,
 } from "./style";
-import { ModalContact } from "../ModalContact";
 
 const Contact = () => {
     const { setIsOpen } = useContext(ModalContext);
     return (
         <FifthScreenSection id="contact">
-            {/* {isOpen && <ModalContact />} */}
-
             <div>
                 <DivContactDescAndSocials>
                     <SectionTitleBig>CONTATO</SectionTitleBig>

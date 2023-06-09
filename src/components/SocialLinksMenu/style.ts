@@ -16,7 +16,8 @@ const SocialLinksMenuCommon = css`
     }
 `;
 const SocialLinksSectionMenu = styled.section`
-    ${SocialLinksMenuCommon}
+    ${SocialLinksMenuCommon};
+    height: 100%;
 `;
 
 const SocialLogoMenu = styled.img``;

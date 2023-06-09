@@ -1,6 +1,6 @@
 const projectsData = [
     {
-        img: "../assets/projects-photos/project-1-portfolio.png",
+        img: "https://github.com/isgabriel/portfolio/blob/feat/contactAndForm/src/assets/projects-photos/project-1-portfolio.png?raw=true",
         name: "Portfolio",
         description:
             "Site de apresentação profissional para empresas e contratantes dos meus serviços.",
@@ -13,7 +13,7 @@ const projectsData = [
         deploy: "https://gabriel-montenegro-portfolio.vercel.app",
     },
     {
-        img: "https://github.com/isgabriel/Weartake/raw/main/src/readme/Home.png",
+        img: "https://github.com/isgabriel/portfolio/blob/feat/contactAndForm/src/assets/projects-photos/project-2-weartake.png?raw=true",
         name: "Weartake",
         description: "Site para e-commerce de vestiário.",
         techs: {
@@ -25,7 +25,7 @@ const projectsData = [
         deploy: "https://weartake-delta.vercel.app",
     },
     {
-        img: "../src/assets/projects-photos/project-3-kenziehub.png",
+        img: "https://github.com/isgabriel/portfolio/blob/feat/contactAndForm/src/assets/projects-photos/project-3-kenziehub.png?raw=true",
         name: "Kenzie Hub",
         description:
             "Aplicação para gerenciamento de aprendizado de tecnologias.",
@@ -38,7 +38,7 @@ const projectsData = [
         deploy: "https://react-entrega-kenzie-hub-isgabriel.vercel.app",
     },
     {
-        img: "../assets/projects-photos/project-4-nukenzie.png",
+        img: "https://github.com/isgabriel/portfolio/blob/feat/contactAndForm/src/assets/projects-photos/project-4-nukenzie.png?raw=true",
         name: "Nu Kenzie",
         description:
             "Aplicação para controle financeiro e monitoramento de entradas e saídas de dinheiro.",
@@ -51,7 +51,7 @@ const projectsData = [
         deploy: "https://nu-kenzie-isgabriel.vercel.app",
     },
     {
-        img: "https://github.com/isgabriel/Kenzie-Burguer/raw/main/src/readme/Home.png",
+        img: "https://github.com/isgabriel/portfolio/blob/feat/contactAndForm/src/assets/projects-photos/project-5-kenzieburguer.png?raw=true",
         name: "Kenzie Burguer",
         description: "Site para pedidos online em hamburgueria.",
         techs: {
@@ -63,7 +63,7 @@ const projectsData = [
         deploy: "https://react-entrega-template-hamburgueria-da-kenzie-isgabriel.vercel.app",
     },
     {
-        img: "https://github.com/isgabriel/Your-School/raw/main/src/readme/Home.png",
+        img: "https://github.com/isgabriel/portfolio/blob/feat/contactAndForm/src/assets/projects-photos/project-6-yourschool.png?raw=true",
         name: "Your School",
         description:
             "Aplicação para controle e visualização de notas escolares.",
