@@ -33,8 +33,9 @@ const ListOfProjects = styled.ul`
 
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     align-items: center;
+
+    margin: 0 auto;
 
     gap: 100px;
 
@@ -71,6 +72,7 @@ const ListOfProjects = styled.ul`
 const ProjectItem = styled.li`
     display: flex;
     flex-direction: column;
+
     width: 100%;
 
     position: relative;
@@ -87,17 +89,18 @@ const ProjectPhotoFigure = styled.figure`
 
     opacity: 0.65;
     overflow: hidden;
+    transition: all 0.5s ease 0s;
 
     border-radius: ${(props) => props.theme.radius.default};
 
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease 0s;
 
     img {
         width: 100%;
         height: 100%;
+
         object-fit: cover;
     }
     &:hover {

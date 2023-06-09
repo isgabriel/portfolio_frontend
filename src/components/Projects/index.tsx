@@ -24,7 +24,7 @@ const Projects = () => {
     };
 
     return (
-        <FourthScreenSection>
+        <FourthScreenSection id="projects">
             <SectionTitleBig>PROJETOS</SectionTitleBig>
             <p>
                 Aqui estão listados alguns dos meus projetos favoritos. Se

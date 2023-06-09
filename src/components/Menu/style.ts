@@ -5,10 +5,9 @@ const MenuSection = styled.section`
     color: ${(props) => props.theme.colors.text};
 
     min-height: 100vh;
-    height: 99.951%;
     max-width: 100%;
 
-    overflow: hidden;
+    /* overflow: hidden; */
 
     padding: 0 20px 0 20px;
 
@@ -27,10 +26,11 @@ const ListMenu = styled.ul`
     margin: 30px 0;
 
     width: 100%;
-    max-height: 100vh;
+    /* max-height: 100vh; */
 
     display: flex;
     flex-direction: column;
+
     @media (min-width: 769px) {
         li {
             a {

@@ -22,7 +22,10 @@ const Header: React.FC = () => {
         <HeaderStyled>
             {menu ? (
                 <NavBar>
-                    <TitleHeaderMenu href="home">
+                    <TitleHeaderMenu
+                        className="titleHeaderHomePage"
+                        onClick={() => window.location.reload()}
+                    >
                         Gabriel Montenegro
                     </TitleHeaderMenu>
                     <DivButtonsHeader className="divButtonsHeader">
@@ -37,7 +40,10 @@ const Header: React.FC = () => {
                 </NavBar>
             ) : (
                 <NavBar>
-                    <TitlePageHeader href="home">
+                    <TitlePageHeader
+                        className="titleHeaderHomePage"
+                        onClick={() => window.location.reload()}
+                    >
                         Gabriel Montenegro
                     </TitlePageHeader>
                     <DivButtonsHeader className="divButtonsHeader">

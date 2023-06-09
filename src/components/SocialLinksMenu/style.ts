@@ -10,13 +10,14 @@ const SocialLinksMenuCommon = css`
         height: 25px;
         width: 25px;
         img {
-            height: 25px;
-            width: 25px;
+            height: 100%;
+            width: 100%;
         }
     }
 `;
 const SocialLinksSectionMenu = styled.section`
-    ${SocialLinksMenuCommon}
+    ${SocialLinksMenuCommon};
+    height: 100%;
 `;
 
 const SocialLogoMenu = styled.img``;

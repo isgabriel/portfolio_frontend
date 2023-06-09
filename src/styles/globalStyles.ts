@@ -37,4 +37,9 @@ body{
 button{
 	cursor: pointer;
 }
+
+dialog{
+    display: unset;
+    position: unset;
+  }
 `;
