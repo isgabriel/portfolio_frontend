@@ -1,4 +1,5 @@
 import closeBtn from "../../assets/general-icons/close-btn/close-btn-mobile.svg";
+
 import { useContext } from "react";
 import { ModalContext } from "../../contexts/ModalContext";
 import { SectionModal, StyledForm, StyledModalBox } from "./style";

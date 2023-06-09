@@ -50,7 +50,8 @@ const NavBar = styled.nav`
     }
 `;
 
-const TitleHeaderMenu = styled.a`
+const TitleHeaderMenu = styled.button`
+    background-color: transparent;
     cursor: pointer;
     color: ${(props) => props.theme.colors.greys.grey7};
 `;
@@ -69,7 +70,8 @@ const MenuButton = styled.button`
     display: flex;
 `;
 
-const TitlePageHeader = styled.a`
+const TitlePageHeader = styled.button`
+    background-color: transparent;
     cursor: pointer;
     color: ${(props) => props.theme.colors.text};
 `;

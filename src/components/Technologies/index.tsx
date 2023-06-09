@@ -7,9 +7,9 @@ const Technologies = () => {
     const [techDescription, setTechDescription] = useState("");
 
     return (
-        <ThirdScreenSection id="techs">
+        <ThirdScreenSection>
             <SectionTitleBig>TECNOLOGIAS</SectionTitleBig>
-            <ListTechnologies>
+            <ListTechnologies id="techs">
                 {technologiesData.map((tech, index) => {
                     return (
                         <li

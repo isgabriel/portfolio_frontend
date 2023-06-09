@@ -1,13 +1,9 @@
 import deployIcon from "../../assets/general-icons/deploy-btn/Framedeploy-icon.svg";
 import githubIcon from "../../assets/social-icons-black/23x23/github-23x23-black.svg";
 
-import { useContext } from "react";
-import { ModalContext } from "../../contexts/ModalContext";
-
 import { projectsData } from "../../data/projetsData";
 import { SectionTitleBig } from "../../styles/sections";
 import { AnchorWithRedirectStyled } from "../AboutMeInfos/style";
-import { ModalContact } from "../ModalContact";
 import {
     FourthScreenSection,
     ListOfProjects,
@@ -21,7 +17,6 @@ import {
 } from "./style";
 
 const Projects = () => {
-    // const { isOpen } = useContext(ModalContext);
     const toggleReverse = (num: number) => {
         if (num % 2 !== 0) {
             return "reverse-align";
@@ -29,7 +24,7 @@ const Projects = () => {
     };
 
     return (
-        <FourthScreenSection>
+        <FourthScreenSection id="projects">
             <SectionTitleBig>PROJETOS</SectionTitleBig>
             <p>
                 Aqui estão listados alguns dos meus projetos favoritos. Se
