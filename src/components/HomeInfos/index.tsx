@@ -29,7 +29,7 @@ const HomeInfos = () => {
 
                 <CurriculumDiv className="curriculumBtnDiv">
                     <a
-                        href="https://drive.google.com/file/d/1FFNSRDuTJd1UeUcotjpibDw53PoEM0qF/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1AOiEJeZ89Rq8-DSSKV2O6PTJxE3-T8fu/view?usp=sharing"
                         target="_blank"
                     >
                         <span>Visualizar Curriculum</span>
