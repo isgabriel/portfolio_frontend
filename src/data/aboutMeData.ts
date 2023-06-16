@@ -1,7 +1,7 @@
 const aboutMeData = {
     sectionName: "SOBRE MIM",
 
-    positionParagraph1: "Desenvolvedor Full Stack",
+    positionParagraph1: "Desenvolvedor Front End",
     paragraph1:
         "Sou um Recifense apaixonado desde criança pelo universo dos jogos. Como Desenvolvedor busco agregar valor aos negócios por meio da tecnologia e adoro encontrar soluções criativas para os problemas que surgem no processo.",
     paragraph2:
