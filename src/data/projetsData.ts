@@ -75,6 +75,18 @@ const projectsData = [
         repository: "https://github.com/isgabriel/Your-School",
         deploy: "https://your-school.vercel.app",
     },
+    {
+        img: "https://github.com/isgabriel/portfolio/blob/feat/contactAndForm/src/assets/projects-photos/project-7-ballebot.png?raw=true",
+        name: "Balle Bot",
+        description: "Landing page para divulgação de bot do Discord.",
+        techs: {
+            tech1: "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+            tech2: "https://logospng.org/download/css-3/logo-css-3-1536.png",
+            tech3: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+        },
+        repository: "https://github.com/isgabriel/ballebot",
+        deploy: "https://ballebot-alpha.vercel.app",
+    },
 ];
 
 export { projectsData };

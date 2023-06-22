@@ -32,7 +32,7 @@ Aqui estão as tecnologias usadas nesse projeto:
  <h3>5 - A seção de projetos contém meus projetos favoritos, em que é possível acessar tanto o repositório quanto o deploy :)</h3>
  <img src="./src/readme/projetos%20sc.png" alt="screenshot">
 
- <h3>6 - A seção de contato é menor que as demais, porém ao clicar em "FORMULÁrio" é aberto um modal para enviar um email direto ao Desenvolvedor.</h3>
+ <h3>6 - A seção de contato é menor que as demais, porém ao clicar em "FORMULÁRIO" é aberto um modal para enviar um email direto ao Desenvolvedor.</h3>
  <img src="./src/readme/contato-form%20sc.png" alt="screenshot">
 
 ## Funcionalidades
