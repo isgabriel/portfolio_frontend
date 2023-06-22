@@ -76,7 +76,7 @@ const projectsData = [
         deploy: "https://your-school.vercel.app",
     },
     {
-        img: "https://github.com/isgabriel/portfolio/blob/feat/contactAndForm/src/assets/projects-photos/project-7-ballebot.png?raw=true",
+        img: "https://github.com/isgabriel/portfolio/blob/feat/updateProjects/src/assets/projects-photos/project-7-ballebot.png?raw=true",
         name: "Balle Bot",
         description: "Landing page para divulgação de bot do Discord.",
         techs: {
