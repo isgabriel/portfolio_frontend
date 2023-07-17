@@ -58,7 +58,7 @@ const DivContactDescAndSocials = styled.div`
 
 const ButtonOpenModal = styled.button`
     background-color: transparent;
-    color: ${(props) => props.theme.colors.greys.grey5};
+    color: ${(props) => props.theme.colors.secondary};
 
     text-decoration: underline;
     font-weight: ${(props) => props.theme.weights.bold};

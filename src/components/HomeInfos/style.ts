@@ -79,6 +79,11 @@ const CurriculumDiv = styled.div`
 
     max-width: 342px;
 
+    &:hover {
+        background-color: ${(props) => props.theme.colors.terciary};
+        transition: 0.6s;
+    }
+
     a {
         width: 100%;
         height: 100%;
