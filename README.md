@@ -23,13 +23,16 @@
     Primeira seção do portfólio, contendo informações básicas e um botão para acessar o meu currículo.
     </figcaption>
 </figure>
+<p> </p>
+<br/>
 
 <figure>
     <img src="./src/readme/menu%20sc.png" alt="screenshot">
-    <figcaption>O Menu permite transitar entre as seções do portfólio, além de mudar o tema (light/dark) e acessar as minhas redes.
-    </figcaption>
+    <figcaption>O Menu permite transitar entre as seções do portfólio, além de mudar o tema (light/dark) e acessar as minhas redes.</figcaption>
 
 </figure>
+<p> </p>
+<br/>
 
 <figure>
     <img src="./src/readme/sobre-mim%20sc.png" alt="screenshot">
@@ -37,6 +40,8 @@
     Segunda seção do portfólio, contendo um resumo mais detalhado sobre a minha trajetória, com foto e um botão que redireciona para a última seção da página, a seção de contato.
     </figcaption>
 </figure>
+<p> </p>
+<br/>
 
 <figure>
     <img src="./src/readme/tecnologias%20sc.png" alt="screenshot">
@@ -44,6 +49,8 @@
     Terceira seção do portfólio, contendo as tecnologias que eu já possuo conhecimento. Ao passar o cursor é possível visualizar um breve resumo sobre cada uma.
     </figcaption>
 </figure>
+<p> </p>
+<br/>
 
 <figure>
     <img src="./src/readme/projetos%20sc.png" alt="screenshot">
@@ -51,6 +58,8 @@
     Quarta seção do portfólio, contendo alguns projetos desenvolvidos por mim durante a trajetória como Desenvolvedor. É possível acessar o deploy e o repositório através dos botões localizados no canto inferior direito das descrições de cada projeto.
     </figcaption>
 </figure>
+<p> </p>
+<br/>
 
 <figure>
     <img src="./src/readme/contato-form%20sc.png" alt="screenshot">
@@ -58,6 +67,7 @@
     Quinta seção do repositório, contendo botões para acesso às minhas redes e um botão "FORMULÁRIO" que abrirá um formulário para enviar um email direto ao Deenvolvedor com uma mensagem personalizada.
     </figcaption>
 </figure>
+<br/>
 
 ## 🔨 Técnicas e Tecnologias utilizadas no Projeto
 
