@@ -6,6 +6,7 @@ const FourthScreenSection = styled.section`
     gap: 20px;
 
     width: 100%;
+    max-width: 1620px;
 
     > p {
         width: 100%;
@@ -172,14 +173,14 @@ const ProjectTechsAndButtonsDiv = styled.div`
     }
 `;
 
-const ProjectTechsDiv = styled.div`
+const ProjectTechsDiv = styled.ul`
     display: flex;
     flex-direction: row;
     gap: 5px;
 
-    img {
-        width: 18px;
-        height: 18px;
+    li > img {
+        width: 25px;
+        height: 25px;
     }
 `;
 
@@ -189,12 +190,12 @@ const ProjectsButtonsDiv = styled.div`
     gap: 5px;
 
     a {
-        width: 18px;
-        height: 18px;
+        width: 25px;
+        height: 25px;
     }
     a img {
-        width: 18px;
-        height: 18px;
+        width: 25px;
+        height: 25px;
     }
 `;
 

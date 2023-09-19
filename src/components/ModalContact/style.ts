@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 const StyledModalBox = styled.div`
     padding: 18px 20px;
     position: fixed;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,10 +17,10 @@ const StyledModalBox = styled.div`
 const SectionModal = styled.dialog`
     border-radius: ${(props) => props.theme.radius.modalContact};
 
-    padding: 15px 20px;
+    padding: 25px 20px;
 
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
 
     background-color: ${(props) => props.theme.colors.primary};
 
@@ -30,6 +31,7 @@ const SectionModal = styled.dialog`
             > button {
                 position: absolute;
                 right: 0;
+                top: 10px;
 
                 background-color: transparent;
             }
@@ -42,6 +44,8 @@ const SectionModal = styled.dialog`
         font-weight: ${(props) => props.theme.weights.bold};
 
         color: ${(props) => props.theme.colors.greys.grey7};
+
+        max-width: 260px;
     }
 
     @media (min-width: 769px) {
@@ -80,6 +84,10 @@ const StyledForm = styled.form`
         min-width: 100%;
         max-width: 100%;
         max-height: 250px;
+        outline: 0;
+    }
+    textarea {
+        resize: none;
     }
 
     section {

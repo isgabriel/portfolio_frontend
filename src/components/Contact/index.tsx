@@ -12,7 +12,11 @@ import {
 const Contact = () => {
     const { setIsOpen } = useContext(ModalContext);
     return (
-        <FifthScreenSection id="contact">
+        <FifthScreenSection
+            id="contact"
+            data-aos="fade-right"
+            className="aos-init"
+        >
             <div>
                 <DivContactDescAndSocials>
                     <SectionTitleBig>CONTATO</SectionTitleBig>

@@ -6,14 +6,14 @@ export default createGlobalStyle`
    License: none (public domain)
 */
 ::-webkit-scrollbar {
-    width: 16px;
+    width: 6px;
     background: ${(props) => props.theme.colors.background};
     height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    box-shadow: inset 0 0 14px 14px ${(props) => props.theme.colors.primary};
-    border: solid 4px transparent;
+    box-shadow: inset 0 0 0 14px ${(props) => props.theme.colors.primary};
+    border: solid 1px transparent;
     border-radius: 14px;
 }
 
@@ -41,5 +41,22 @@ button{
 dialog{
     display: unset;
     position: unset;
-  }
+}
+header, main {
+        min-width: 100%;
+        max-width: 1620px;
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+        padding: 18px 20px;
+    }
+    main {
+
+        /* margin-top: 60px; */
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
 `;
