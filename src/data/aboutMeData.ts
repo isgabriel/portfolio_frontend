@@ -3,11 +3,11 @@ const aboutMeData = {
 
     positionParagraph1: "Desenvolvedor Front End",
     paragraph1:
-        "Sou um Recifense apaixonado desde criança pelo universo dos jogos. Como Desenvolvedor busco agregar valor aos negócios por meio da tecnologia e adoro encontrar soluções criativas para os problemas que surgem no processo.",
+        "Sou um Recifense apaixonado desde criança pelo universo dos jogos. Atuo como Desenvolvedor há mais de 1 ano e sempre busco agregar valor aos negócios por meio da tecnologia.",
     paragraph2:
-        "Além disso, gosto de trabalhar em equipe para alcançar resultados inovadores e eficientes por meio da troca de conhecimento. Sempre busco me manter atualizado com as últimas tecnologias para entregar o melhor resultado no desenvolvimento dos projetos.",
+        "Gosto de trabalhar em equipe para trocar conhecimentos e alcançar excelentes resultados de forma inovadora. Além disso, sempre busco me manter atualizado para entregar o melhor resultado no desenvolvimento dos projetos.",
     paragraph3:
-        "Meu objetivo final é a criação de um software responsivo, funcional e amigável para atender as demandas dos clientes. ",
+        "Meu objetivo final é a criação de um software responsivo, funcional e amigável para atender as demandas dos clientes.  ",
 
     workTogether: "Vamos trabalhar juntos?",
 };

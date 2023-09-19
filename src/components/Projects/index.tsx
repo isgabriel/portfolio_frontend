@@ -55,18 +55,19 @@ const Projects = () => {
                                     </ProjectDivInfos>
                                     <ProjectTechsAndButtonsDiv>
                                         <ProjectTechsDiv>
-                                            <img
-                                                src={project.techs.tech1}
-                                                alt=""
-                                            />
-                                            <img
-                                                src={project.techs.tech2}
-                                                alt=""
-                                            />
-                                            <img
-                                                src={project.techs.tech3}
-                                                alt=""
-                                            />
+                                            {project.techs.map(
+                                                (tech, index) => {
+                                                    return (
+                                                        <li key={index}>
+                                                            <img
+                                                                src={
+                                                                    tech.techImg
+                                                                }
+                                                            />
+                                                        </li>
+                                                    );
+                                                }
+                                            )}
                                         </ProjectTechsDiv>
                                         <ProjectsButtonsDiv>
                                             <a

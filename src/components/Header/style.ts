@@ -13,7 +13,8 @@ const NavBar = styled.nav`
     justify-content: space-between;
     align-items: center;
 
-    max-width: 100%;
+    width: 100%;
+    max-width: 1620px;
 
     @media (min-width: 769px) {
         .titleHeaderHomePage {

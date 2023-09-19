@@ -6,7 +6,7 @@ const FirstScreenSection = styled.section`
     gap: 30px;
 
     max-width: 1620px;
-    /* width: 100%; */
+
     @media (min-width: 769px) {
         gap: 80px;
 

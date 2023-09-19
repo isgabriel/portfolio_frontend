@@ -107,6 +107,12 @@ const technologiesData = [
         description:
             "Java é uma linguagem de programação orientada a objetos que é amplamente usada para o desenvolvimento de sites e aplicativos.",
     },
+    {
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Tabler-icons_brand-nextjs.svg/120px-Tabler-icons_brand-nextjs.svg.png?20230425182455",
+        name: "NEXTJS",
+        description:
+            "Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel.",
+    },
 ];
 
 export { technologiesData };

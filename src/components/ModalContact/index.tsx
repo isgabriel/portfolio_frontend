@@ -6,12 +6,17 @@ import { SectionModal, StyledForm, StyledModalBox } from "./style";
 
 const ModalContact = () => {
     const { setIsOpen } = useContext(ModalContext);
+
+    const handleCloseModal = () => {
+        setIsOpen(false);
+    };
+
     return (
         <StyledModalBox>
             <SectionModal>
                 <div>
                     <div>
-                        <button onClick={() => setIsOpen(false)}>
+                        <button onClick={handleCloseModal}>
                             <img src={closeBtn} alt="" />
                         </button>
                     </div>

@@ -17,26 +17,24 @@ const Home = () => {
     const { menu } = useContext(MenuContext);
 
     return (
-        <HomeContainer>
+        <>
             {menu ? (
                 <MenuPortfolio />
             ) : (
                 <>
                     {isOpen && <ModalContact />}
-                    <HomePageSection className="aaaeee" data-aos="flip-left">
-                        <Header />
-                        <main>
-                            <HomeInfos />
-                            <AboutMeInfos />
-                            <Technologies />
-                            <Projects />
-                        </main>
-
-                        <Contact />
-                    </HomePageSection>
+                    <Header />
+                    <main>
+                        <HomeInfos />
+                        <AboutMeInfos />
+                        <Technologies />
+                        <Projects />
+                    </main>
+                    <Contact />
+                    <HomePageSection></HomePageSection>
                 </>
             )}
-        </HomeContainer>
+        </>
     );
 };
 
