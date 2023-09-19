@@ -1,6 +1,8 @@
 import downloadImage from "../../assets/general-icons/download-btn/download-btn-mobile-white.svg";
 import { homeInfosData } from "../../data/homeInfosData";
 
+import cv from "../../assets/CV/CVGabrielFragosoMontenegro.pdf";
+
 import {
     BigLineSeparation,
     FirstScreenSection,
@@ -25,15 +27,13 @@ const HomeInfos = () => {
                 <PresentationFirstScreen>
                     {homeInfosData.description}
                 </PresentationFirstScreen>
+
                 <BigLineSeparation />
 
                 <CurriculumDiv className="curriculumBtnDiv">
-                    <a
-                        href="https://drive.google.com/file/d/1THcDPiUTXUQ-r-S5PBKrNSQHi4XcTeo9/view?usp=sharing"
-                        target="_blank"
-                    >
-                        <span>Visualizar Curriculum</span>
-                        <img src={downloadImage} alt="" />
+                    <a href={cv} download>
+                        <span>Baixar currículo</span>
+                        <img src={downloadImage} alt="download icon" />
                     </a>
                 </CurriculumDiv>
             </SectionBasicInfos>
