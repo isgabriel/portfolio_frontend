@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { MenuContext } from "../../contexts/MenuContext/MenuContext";
 import { MenuPortfolio } from "../../components/Menu";
 import { Header } from "../../components/Header";
-import { HomeContainer, HomePageSection } from "./style";
+
 import { HomeInfos } from "../../components/HomeInfos";
 import { AboutMeInfos } from "../../components/AboutMeInfos";
 import { Technologies } from "../../components/Technologies";
@@ -31,7 +31,6 @@ const Home = () => {
                         <Projects />
                     </main>
                     <Contact />
-                    <HomePageSection></HomePageSection>
                 </>
             )}
         </>
