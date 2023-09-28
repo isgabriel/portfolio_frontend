@@ -47,30 +47,30 @@ const technologiesData = [
         description:
             "SASS é uma linguagem de extensão do CSS que cria folhas de estilo com uma sintaxe incrível.",
     },
-    {
-        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
-        name: "TAILWIND",
-        description:
-            "Tailwind é um framework CSS que fornece componentes para sua estilização.",
-    },
-    {
-        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
-        name: "VUEJS",
-        description:
-            "VueJS é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.",
-    },
+    // {
+    //     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
+    //     name: "TAILWIND",
+    //     description:
+    //         "Tailwind é um framework CSS que fornece componentes para sua estilização.",
+    // },
+    // {
+    //     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
+    //     name: "VUEJS",
+    //     description:
+    //         "VueJS é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.",
+    // },
     {
         img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         name: "GIT",
         description:
             "Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.",
     },
-    {
-        img: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
-        name: "GITHUB",
-        description:
-            "GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.",
-    },
+    // {
+    //     img: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+    //     name: "GITHUB",
+    //     description:
+    //         "GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.",
+    // },
     {
         img: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
         name: "FIGMA",
@@ -83,30 +83,30 @@ const technologiesData = [
         description:
             "Node.js é um software que permite a execução de códigos JavaScript fora de um navegador web.",
     },
-    {
-        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-        name: "PYTHON",
-        description:
-            "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte",
-    },
-    {
-        img: "https://www.svgrepo.com/show/353657/django-icon.svg",
-        name: "DJANGO",
-        description:
-            "Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view.",
-    },
+    // {
+    //     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+    //     name: "PYTHON",
+    //     description:
+    //         "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte",
+    // },
+    // {
+    //     img: "https://www.svgrepo.com/show/353657/django-icon.svg",
+    //     name: "DJANGO",
+    //     description:
+    //         "Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view.",
+    // },
     {
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1853px-C_Programming_Language.svg.png",
         name: "C",
         description:
             "C é uma linguagem de alto nível genérica e pode ser usada em diversos tipos de projeto, como a criação de aplicativos, sistemas operacionais, drivers, entre outros.",
     },
-    {
-        img: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
-        name: "JAVA",
-        description:
-            "Java é uma linguagem de programação orientada a objetos que é amplamente usada para o desenvolvimento de sites e aplicativos.",
-    },
+    // {
+    //     img: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+    //     name: "JAVA",
+    //     description:
+    //         "Java é uma linguagem de programação orientada a objetos que é amplamente usada para o desenvolvimento de sites e aplicativos.",
+    // },
     {
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Tabler-icons_brand-nextjs.svg/120px-Tabler-icons_brand-nextjs.svg.png?20230425182455",
         name: "NEXTJS",
