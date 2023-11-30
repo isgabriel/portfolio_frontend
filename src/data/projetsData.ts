@@ -85,11 +85,32 @@ const projectsData = [
         repository: "https://github.com/isgabriel/your-school_frontend",
         deploy: "https://your-school.vercel.app",
     },
+    // {
+    //     img: "https://github.com/isgabriel/techs-hub_frontend/raw/main/src/readme/dashboard.png",
+    //     name: "Techs Hub",
+    //     description:
+    //         "Aplicação para controle de aprendizado de tecnologias Web.",
+    //     techs: [
+    //         {
+    //             techImg:
+    //                 "https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png",
+    //         },
+    //         {
+    //             techImg:
+    //                 "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    //         },
+    //         {
+    //             techImg:
+    //                 "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+    //         },
+    //     ],
+    //     repository: "https://github.com/isgabriel/techs-hub_frontend",
+    //     deploy: "https://techs-hub-isgabriel.vercel.app",
+    // },
     {
-        img: "https://github.com/isgabriel/techs-hub_frontend/raw/main/src/readme/dashboard.png",
-        name: "Techs Hub",
-        description:
-            "Aplicação para controle de aprendizado de tecnologias Web.",
+        img: "https://github.com/isgabriel/yourseg_frontend/raw/main/readme/home.png?raw=true",
+        name: "Your Seg",
+        description: "Landing Page desenvolvida para Seguradora.",
         techs: [
             {
                 techImg:
@@ -104,8 +125,8 @@ const projectsData = [
                     "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
             },
         ],
-        repository: "https://github.com/isgabriel/techs-hub_frontend",
-        deploy: "https://techs-hub-isgabriel.vercel.app",
+        repository: "https://github.com/isgabriel/yourseg_frontend",
+        deploy: "https://yourseg.vercel.app/",
     },
 ];
 
