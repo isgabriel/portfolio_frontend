@@ -12,9 +12,9 @@ export const ThemeChangeContext = createContext({} as iThemeContext);
 
 const ThemeChangeProvider = ({ children }: { children: JSX.Element }) => {
     const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", light);
+
     const toggleTheme = () => {
         setTheme(theme.title === "light" ? dark : light);
-        window.location.reload();
     };
 
     return (

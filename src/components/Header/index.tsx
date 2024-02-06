@@ -1,4 +1,6 @@
 import closeBtn from "../../assets/general-icons/close-btn/close-btn-mobile.svg";
+import moon from "../../assets/theme-icons/moon-theme-icon.svg";
+import { FiSun } from "react-icons/fi";
 
 import { useContext } from "react";
 
@@ -16,8 +18,15 @@ import {
     TitlePageHeader,
 } from "./style";
 
+import { ThemeChangeContext } from "../../contexts/ThemeContext/ThemeContext";
+
+const iconeProps = {
+    size: 40,
+};
 const Header: React.FC = () => {
     const { menu, handleMenu } = useContext(MenuContext);
+    const { theme, toggleTheme } = useContext(ThemeChangeContext);
+
     return (
         <HeaderStyled>
             {menu ? (
@@ -46,6 +55,20 @@ const Header: React.FC = () => {
                     >
                         Gabriel Montenegro
                     </TitlePageHeader>
+                    <div className="navHeader">
+                        <a href="#home">Home</a>
+                        <a href="#about">Sobre mim</a>
+                        <a href="#techs">Tecnologias</a>
+                        <a href="#projects">Projetos</a>
+                        <a href="#contact">Contato</a>
+                        <figure onClick={toggleTheme}>
+                            {theme.title === "light" ? (
+                                <FiSun {...iconeProps} />
+                            ) : (
+                                <img src={moon} />
+                            )}
+                        </figure>
+                    </div>
                     <DivButtonsHeader className="divButtonsHeader">
                         <SocialLinksGeneral />
                         <MenuButton onClick={handleMenu}>

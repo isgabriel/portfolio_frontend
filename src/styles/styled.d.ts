@@ -17,6 +17,7 @@ declare module "styled-components" {
             };
 
             background: string; //grey5
+            backgroundHeader: string;
             text: string; //brand1
         };
 
