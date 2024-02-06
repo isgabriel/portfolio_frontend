@@ -33,7 +33,8 @@ const Header: React.FC = () => {
                 <NavBar>
                     <TitleHeaderMenu
                         className="titleHeaderHomePage"
-                        onClick={() => window.location.reload()}
+                        href="#home"
+                        onClick={handleMenu}
                     >
                         Gabriel Montenegro
                     </TitleHeaderMenu>
@@ -51,7 +52,8 @@ const Header: React.FC = () => {
                 <NavBar>
                     <TitlePageHeader
                         className="titleHeaderHomePage"
-                        onClick={() => window.location.reload()}
+                        href="#home"
+                        // onClick={() => window.location.reload()}
                     >
                         Gabriel Montenegro
                     </TitlePageHeader>
