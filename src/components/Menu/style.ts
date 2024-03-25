@@ -9,11 +9,15 @@ const MenuSection = styled.section`
 
     /* overflow: hidden; */
 
-    padding: 0 20px 0 20px;
+    padding: 0;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    > header {
+        background-color: transparent;
+    }
 
     @media (min-width: 769px) {
         div > section {

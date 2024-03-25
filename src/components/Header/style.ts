@@ -1,11 +1,13 @@
 import { styled } from "styled-components";
 
 const HeaderStyled = styled.header`
+    background-color: ${(props) => props.theme.colors.backgroundHeader};
+
     width: 100%;
     max-width: 1620px;
 
     position: sticky;
-    top: 18px;
+    top: 0;
     z-index: 1000;
 `;
 const NavBar = styled.nav`
@@ -15,15 +17,39 @@ const NavBar = styled.nav`
 
     width: 100%;
     max-width: 1620px;
+    .navHeader {
+        display: none;
+    }
 
     @media (min-width: 769px) {
         .titleHeaderHomePage {
             font-size: ${(props) => props.theme.titles.title4};
         }
+        .navHeader {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            gap: 2%;
+
+            min-width: 50%;
+
+            > a {
+                font-family: "Jost", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                text-transform: uppercase;
+
+                color: ${(props) => props.theme.colors.text};
+            }
+            > figure {
+                cursor: pointer;
+            }
+        }
 
         .divButtonsHeader {
             position: relative;
-            display: flex;
+            display: none;
             justify-content: space-between;
             align-items: center;
 
@@ -51,7 +77,7 @@ const NavBar = styled.nav`
     }
 `;
 
-const TitleHeaderMenu = styled.button`
+const TitleHeaderMenu = styled.a`
     background-color: transparent;
     cursor: pointer;
     color: ${(props) => props.theme.colors.greys.grey7};
@@ -71,7 +97,7 @@ const MenuButton = styled.button`
     display: flex;
 `;
 
-const TitlePageHeader = styled.button`
+const TitlePageHeader = styled.a`
     background-color: transparent;
     cursor: pointer;
     color: ${(props) => props.theme.colors.text};
