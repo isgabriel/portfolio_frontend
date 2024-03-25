@@ -128,6 +128,35 @@ const projectsData = [
         repository: "https://github.com/isgabriel/yourseg_frontend",
         deploy: "https://yourseg.vercel.app/",
     },
+    {
+        img: "/public/projects-photos/project-8-lumos.png",
+        name: "Lumos",
+        description: "Landing Page desenvolvida para empresa de Software.",
+        techs: [
+            {
+                techImg: "https://www.svgrepo.com/show/368858/nextjs.svg",
+            },
+            {
+                techImg:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+            },
+            {
+                techImg:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png",
+            },
+            {
+                techImg:
+                    "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+            },
+            {
+                techImg:
+                    "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+            },
+        ],
+        repository:
+            "https://github.com/Lumos-Software-and-System/lumos-portfolio-front",
+        deploy: "https://lumos-portfolio.vercel.app",
+    },
 ];
 
 export { projectsData };

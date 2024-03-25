@@ -18,6 +18,7 @@ export default {
         text: "#101010", //brand1
 
         backgroundToggleTheme: "rgba(184,184,184,0.25)",
+        backgroundHeader: "rgba(200, 200, 200, 0.65)",
     },
 
     titles: {

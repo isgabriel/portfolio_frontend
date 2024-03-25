@@ -7,6 +7,12 @@ const FirstScreenSection = styled.section`
 
     max-width: 1620px;
 
+    .sectionCVButtons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     @media (min-width: 769px) {
         gap: 80px;
 
@@ -23,15 +29,22 @@ const FirstScreenSection = styled.section`
         p {
             font-size: ${(props) => props.theme.texts.text2};
         }
-        .curriculumBtnDiv {
-            height: 52px;
-            margin-top: 30px;
-            a {
-                font-size: ${(props) => props.theme.texts.text3};
+        .sectionCVButtons {
+            flex-direction: row;
 
-                img {
-                    width: 20px;
-                    height: 20px;
+            width: 100%;
+
+            .curriculumBtnDiv {
+                height: 52px;
+                margin-top: 30px;
+                width: 350px;
+                a {
+                    font-size: ${(props) => props.theme.texts.text3};
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
                 }
             }
         }

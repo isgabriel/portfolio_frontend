@@ -12,7 +12,7 @@ import {
 
 const AboutMeInfos = () => {
     return (
-        <SecondScreenSection>
+        <SecondScreenSection id="about">
             <ContainerAboutMe>
                 <div className="dev">
                     <figure>
@@ -25,7 +25,7 @@ const AboutMeInfos = () => {
                     </SectionTitleMedium>
                     <p>{aboutMeData.paragraph1}</p>
                     <p>{aboutMeData.paragraph2}</p>
-                    <p id="about">
+                    <p>
                         {aboutMeData.paragraph3}
                         <AnchorWithRedirectStyled href="#contact">
                             {aboutMeData.workTogether}
