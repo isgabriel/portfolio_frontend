@@ -1,4 +1,5 @@
 import downloadImage from "../../assets/general-icons/download-btn/download-btn-mobile-white.svg";
+import { RiShareBoxFill } from "react-icons/ri";
 import { homeInfosData } from "../../data/homeInfosData";
 
 import cv from "../../assets/CV/CVGabrielFragosoMontenegro.pdf";
@@ -30,12 +31,20 @@ const HomeInfos = () => {
 
                 <BigLineSeparation />
 
-                <CurriculumDiv className="curriculumBtnDiv">
-                    <a href={cv} download>
-                        <span>Baixar currículo</span>
-                        <img src={downloadImage} alt="download icon" />
-                    </a>
-                </CurriculumDiv>
+                <section className="sectionCVButtons">
+                    <CurriculumDiv className="curriculumBtnDiv">
+                        <a href={cv} download>
+                            <span>Baixar currículo</span>
+                            <img src={downloadImage} alt="download icon" />
+                        </a>
+                    </CurriculumDiv>
+                    <CurriculumDiv className="curriculumBtnDiv">
+                        <a href={cv} target="_blank">
+                            <span>Visualizar currículo</span>
+                            <RiShareBoxFill />
+                        </a>
+                    </CurriculumDiv>
+                </section>
             </SectionBasicInfos>
         </FirstScreenSection>
     );

@@ -23,6 +23,7 @@ const Home = () => {
             ) : (
                 <>
                     {isOpen && <ModalContact />}
+
                     <Header />
                     <main>
                         <HomeInfos />

@@ -83,12 +83,12 @@ const technologiesData = [
         description:
             "Node.js é um software que permite a execução de códigos JavaScript fora de um navegador web.",
     },
-    // {
-    //     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-    //     name: "PYTHON",
-    //     description:
-    //         "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte",
-    // },
+    {
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+        name: "PYTHON",
+        description:
+            "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte",
+    },
     // {
     //     img: "https://www.svgrepo.com/show/353657/django-icon.svg",
     //     name: "DJANGO",

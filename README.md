@@ -20,7 +20,7 @@
 <figure>
     <img src="./src/readme/home%20sc.png" alt="home page screenshot" aria-label="aaaa">
     <figcaption>
-    Primeira seção do portfólio, contendo informações básicas e um botão para acessar o meu currículo.
+    Primeira seção do portfólio, contendo informações básicas e um botão para acessar o meu CV.
     </figcaption>
 </figure>
 <p> </p>

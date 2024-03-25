@@ -17,7 +17,7 @@ const MenuPortfolio: React.FC = () => {
     const { handleMenu } = useContext(MenuContext);
 
     return (
-        <MenuSection data-aos="flip-right" data-aos-duration="1000">
+        <MenuSection data-aos="fade-right" data-aos-duration="900">
             <Header />
             <div>
                 <ListMenu>

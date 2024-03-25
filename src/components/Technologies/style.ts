@@ -53,6 +53,8 @@ const ThirdScreenSection = styled.section`
                     height: 70px;
                 }
                 h4 {
+                    visibility: visible;
+
                     font-size: ${(props) => props.theme.texts.text2};
                     /* display: inline; */
                 }
@@ -69,6 +71,7 @@ const ListTechnologies = styled.ul`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 10px;
     justify-content: space-between;
 
     li {
@@ -105,6 +108,8 @@ const ListTechnologies = styled.ul`
             }
         }
         h4 {
+            visibility: hidden;
+
             font-size: ${(props) => props.theme.texts.text4};
             font-weight: ${(props) => props.theme.weights.medium};
 

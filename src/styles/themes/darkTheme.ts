@@ -18,6 +18,7 @@ export default {
         text: "#FFFFFF", //grey7
 
         backgroundToggleTheme: "rgba(0,0,0,0.25)",
+        backgroundHeader: "rgba(1, 1, 1, 0.35);",
     },
 
     titles: {
