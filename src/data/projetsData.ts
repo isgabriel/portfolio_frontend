@@ -129,7 +129,7 @@ const projectsData = [
         deploy: "https://yourseg.vercel.app/",
     },
     {
-        img: "/public/projects-photos/project-8-lumos.png",
+        img: "https://github.com/isgabriel/portfolio_frontend/blob/develop/public/projects-photos/project-8-lumos.png?raw=true",
         name: "Lumos",
         description: "Landing Page desenvolvida para empresa de Software.",
         techs: [
