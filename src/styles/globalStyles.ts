@@ -51,6 +51,10 @@ header, main {
         align-items:center;
 
         padding: 18px 20px;
+        @media (min-width:769px){
+        padding: 6px 20px;
+
+        }
     }
     main {
 

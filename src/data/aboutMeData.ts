@@ -7,7 +7,7 @@ const aboutMeData = {
     paragraph2:
         "Gosto de trabalhar em equipe para trocar conhecimentos e alcançar excelentes resultados de forma inovadora. Além disso, sempre busco me manter atualizado para entregar o melhor resultado no desenvolvimento dos projetos.",
     paragraph3:
-        "Meu objetivo final é a criação de um software responsivo, funcional e amigável para atender as demandas dos clientes.  ",
+        "Meu objetivo final é a criação de softwares responsivos, funcionais e amigáveis para sempre atender as demandas.  ",
 
     workTogether: "Vamos trabalhar juntos?",
 };

@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import closeBtn from "../../assets/general-icons/close-btn/close-btn-mobile.svg";
 
-import { useContext, useRef, useState } from "react";
+import { useContext, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ModalContext } from "../../contexts/ModalContext";
 import { SectionModal, StyledForm, StyledModalBox } from "./style";
 
 const ModalContact = () => {
     const { setIsOpen } = useContext(ModalContext);
-    // const form = useRef();
+
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
@@ -43,19 +43,6 @@ const ModalContact = () => {
             .catch((error) => {
                 console.log("Erro ao enviar email", error);
             });
-
-        // emailjs
-        //     .sendForm("service_40yvqob", "template_onp07ec", form.current, {
-        //         publicKey: "Hsv-8ZrBgMK2CEWrj",
-        //     })
-        //     .then(
-        //         () => {
-        //             console.log("SUCCESS!");
-        //         },
-        //         (error: any) => {
-        //             console.log("FAILED...", error.text);
-        //         }
-        //     );
     };
 
     return (
@@ -74,7 +61,6 @@ const ModalContact = () => {
                                 type="text"
                                 placeholder="Nome"
                                 value={name}
-                                // name="user_name"
                                 onChange={(e) => setName(e.target.value)}
                                 required
                             />
@@ -82,10 +68,8 @@ const ModalContact = () => {
                         <div>
                             <input
                                 type="email"
-                                // name="user_email"
                                 placeholder="Email"
                                 value={email}
-                                // name="user_name"
                                 onChange={(e) => setEmail(e.target.value)}
                                 required
                             />
@@ -96,7 +80,6 @@ const ModalContact = () => {
                                 id=""
                                 placeholder="Digite sua mensagem"
                                 value={message}
-                                // name="user_name"
                                 onChange={(e) => setMessage(e.target.value)}
                                 required
                             ></textarea>

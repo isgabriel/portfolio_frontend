@@ -19,6 +19,82 @@ const NavBar = styled.nav`
     max-width: 1620px;
     .navHeader {
         display: none;
+
+        > li {
+            position: relative;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            > a {
+                /* position: relative; */
+                transition: 0.3s ease;
+                padding: 10px;
+            }
+            a::after {
+                content: "";
+                height: 4px;
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                width: 0px;
+
+                transition: 0.3s ease;
+
+                background-color: ${(props) => props.theme.colors.primary};
+                box-shadow: 0 0 10px 0 ${(props) => props.theme.colors.primary};
+            }
+            > span {
+                position: absolute;
+                /* left: 0; */
+                top: 58px;
+
+                pointer-events: none;
+
+                opacity: 0;
+                transform: translateY(100px);
+                /* transition: 0.3s ease; */
+
+                background-color: ${(props) =>
+                    props.theme.colors.backgroundHeader};
+                color: ${(props) => props.theme.colors.text};
+
+                padding: 10px;
+
+                font-size: ${(props) => props.theme.titles.title5};
+                font-weight: ${(props) => props.theme.weights.semiBold};
+
+                text-align: center;
+            }
+
+            &:hover {
+                > a {
+                    color: ${(props) => props.theme.colors.text};
+                }
+                a::after {
+                    width: 100%;
+                }
+                > span {
+                    transition: 0.3s ease;
+
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        }
+        > figure {
+            cursor: pointer;
+            > img {
+                pointer-events: none;
+
+                transition: 1s ease;
+            }
+        }
+        figure:hover img {
+            filter: brightness(1.2);
+            transform: rotate(360deg);
+        }
     }
 
     @media (min-width: 769px) {
@@ -34,16 +110,18 @@ const NavBar = styled.nav`
 
             min-width: 50%;
 
-            > a {
-                font-family: "Jost", sans-serif;
-                font-weight: 700;
-                font-size: 24px;
-                text-transform: uppercase;
+            > li {
+                > a {
+                    font-family: "Jost", sans-serif;
+                    font-weight: 700;
+                    font-size: 24px;
+                    text-transform: uppercase;
 
-                color: ${(props) => props.theme.colors.text};
-            }
-            > figure {
-                cursor: pointer;
+                    color: ${(props) => props.theme.colors.text};
+                }
+                > figure {
+                    cursor: pointer;
+                }
             }
         }
 

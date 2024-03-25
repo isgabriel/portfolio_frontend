@@ -1,6 +1,6 @@
 import closeBtn from "../../assets/general-icons/close-btn/close-btn-mobile.svg";
 import moon from "../../assets/theme-icons/moon-theme-icon.svg";
-import { FiSun } from "react-icons/fi";
+import sun from "../../assets/theme-icons/sun-black-icon.svg";
 
 import { useContext } from "react";
 
@@ -20,9 +20,6 @@ import {
 
 import { ThemeChangeContext } from "../../contexts/ThemeContext/ThemeContext";
 
-const iconeProps = {
-    size: 40,
-};
 const Header: React.FC = () => {
     const { menu, handleMenu } = useContext(MenuContext);
     const { theme, toggleTheme } = useContext(ThemeChangeContext);
@@ -53,24 +50,38 @@ const Header: React.FC = () => {
                     <TitlePageHeader
                         className="titleHeaderHomePage"
                         href="#home"
-                        // onClick={() => window.location.reload()}
                     >
                         Gabriel Montenegro
                     </TitlePageHeader>
-                    <div className="navHeader">
-                        <a href="#home">Home</a>
-                        <a href="#about">Sobre mim</a>
-                        <a href="#techs">Tecnologias</a>
-                        <a href="#projects">Projetos</a>
-                        <a href="#contact">Contato</a>
+                    <ul className="navHeader">
+                        <li data-aos="fade-left" data-aos-delay="100">
+                            <a href="#home">01</a>
+                            <span>Home</span>
+                        </li>
+                        <li data-aos="fade-left" data-aos-delay="200">
+                            <a href="#about">02</a>
+                            <span>Sobre</span>
+                        </li>
+                        <li data-aos="fade-left" data-aos-delay="300">
+                            <a href="#techs">03</a>
+                            <span>Tecnologias</span>
+                        </li>
+                        <li data-aos="fade-left" data-aos-delay="400">
+                            <a href="#projects">04</a>
+                            <span>Projetos</span>
+                        </li>
+                        <li data-aos="fade-left" data-aos-delay="500">
+                            <a href="#contact">05</a>
+                            <span>Contato</span>
+                        </li>
                         <figure onClick={toggleTheme}>
                             {theme.title === "light" ? (
-                                <FiSun {...iconeProps} />
+                                <img src={sun} />
                             ) : (
                                 <img src={moon} />
                             )}
                         </figure>
-                    </div>
+                    </ul>
                     <DivButtonsHeader className="divButtonsHeader">
                         <SocialLinksGeneral />
                         <MenuButton onClick={handleMenu}>
