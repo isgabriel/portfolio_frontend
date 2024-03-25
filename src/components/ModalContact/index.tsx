@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import closeBtn from "../../assets/general-icons/close-btn/close-btn-mobile.svg";
@@ -34,7 +35,7 @@ const ModalContact = () => {
 
         emailjs
             .send(serviceId, templateId, templateParams, publicKey)
-            .then((response) => {
+            .then((_response) => {
                 setName("");
                 setEmail("");
                 setMessage("");
